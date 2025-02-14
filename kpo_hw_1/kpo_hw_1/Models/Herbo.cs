@@ -1,0 +1,13 @@
+﻿using System;
+
+namespace Models
+{
+    class Herbo : Animal
+    {
+        public int Kindness { get; set; }
+        public Herbo(int number, int food = 10, int kindness = 5) : base(number, food)
+        {
+            Kindness = kindness;
+        }
+    }
+}
